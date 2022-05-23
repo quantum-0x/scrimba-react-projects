@@ -5,7 +5,7 @@ export default function Header() {
     return (
       <div className="nav">
         <img src = {world} alt="world" />
-        <p><span className="title">my travel journal.</span></p>
+        <p><span className="title">my travel journal</span></p>
       </div>
     )
 }
