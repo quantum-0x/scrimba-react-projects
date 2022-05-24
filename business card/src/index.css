@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0; 
+}
+
+body {
+  background-color: #1C1C1C;
+  font-family: 'Inter', sans-serif;
+  font-size: 10.24px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.wrapper {
+  width: 550px;
+  padding: 44px 0px 44px 0px;
+  margin: 50px auto;
+  background-color: #23252C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* overflow: hidden; */
+}
+
+.card {
+  width: 317px;
+}
+
+.profile {
+  background-color: #1A1B21;
+}
+
+.profileDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 35px;
+}
+
+
+h1 {
+  font-size: 25px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.title {
+  font-size: 12.8px;
+  color: #F3BF99;
+  margin-top: 6px;
+}
+
+.domain {
+  color: #F5F5F5;
+  margin-top: 8px;
+}
+
+.profileLinks {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profileLinks > *:not(:last-child) {
+  margin-right: 17px;
+}
+
+.link {
+  width: 115px;
+  height: 34px;
+  background-color: #FFFFFF;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.link > *:not(:last-child) {
+  margin-right: 8px;
+}
+
+
+.link > a {
+  font-size: 14px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.linkedin {
+  background-color: #5093E2;
+  color: white;
+}
+
+.description {
+  padding: 33px 36px 42px 34px;
+  color: #FFFFFF;
+}
+
+.description > *:not(:last-child) {
+  margin-bottom: 15px;
+}
+
+.textBlock > h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.textBlock > p {
+  font-weight: 400;
+  color: #DCDCDC;
+  line-height: 150%;
+}
+
+.footer {
+  background-color: #161619;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 64px;
+  border-radius: 0 0 10px 10px;
+}
+
+.footer > *:not(:last-child) {
+  margin-right: 24px;
+}
