@@ -16,7 +16,7 @@ export default function Main() {
          <div className="description">
             <div className="textBlock">
                 <h2>About</h2>
-                <p>I am a web3 UX Engineer with a particular interest in making things simple and automating daily tasks. I try to keep up with security and best practices, and am always looking for new things to learn.</p>
+                <p>I am a web3 UX Engineer with a particular interest in making things simple and decentralized. I try to keep up with security and best practices, and am always looking for new things to learn.</p>
             </div>
             <div className="textBlock">
                 <h2>Interests</h2>
