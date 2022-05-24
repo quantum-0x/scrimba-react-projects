@@ -10,7 +10,7 @@ export default function Main() {
                   <input type="text" id="fname" name="fname" placeholder="Shut up"></input>
                   <input type="text" id="lname" name="lname" placeholder="and take my money"></input>
                 </div>
-                <input type="submit" value="Get a new meme image 🖼️"></input>
+                <input type="submit" value="Get a new meme image 😆"></input>
               </form>
             </div>
             <div className="displayImage">
@@ -18,7 +18,7 @@ export default function Main() {
                   <p className="top">SHUT UP</p>
                   <p className="bottom">AND TAKE MY MONEY</p>
               </div>
-               <img src={image} alt="display_image" />
+              <img src={image} alt="display_image" />
             </div>
       </div>
     )
