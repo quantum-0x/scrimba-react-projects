@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0; 
+    padding: 0; 
+}
+
+body {
+    font-family: "Karla", sans-serif;
+    background-color: #E5E5E5;
+    font-size: 10.24px;
+    color: #FFFFFF;
+}
+
+.wrapper {
+  width: 550px;
+  margin: 50px auto;
+  background-color: #FFFFFF;
+  /* overflow: hidden; */
+}
+
+.nav {
+  height: 65px;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 37px 0px 20px;
+}
+
+.nav > p {
+  font-size: 12px;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo > img {
+  margin-right: 6.7px;
+}
+
+.logo > h1 {
+  font-size: 20.75px;
+  font-weight: bold;
+}
+
+.main {
+  padding: 36px;
+}
+
+.input > input {
+  width: 230px;
+  height: 35px;
+  padding: 10px;
+  border: 1px solid #D5D4D8;
+  border-radius: 5px;
+}
+
+.input > :first-child {
+  margin-right: 17px;
+}
+
+.form > input {
+  width: 477px;
+  height: 40px;
+  margin-top: 17px;
+  background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+  border-radius: 5px;
+  border: none;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.displayImage {
+  margin-top: 36px;
+  color: #672280;
+  position: relative;
+}
+
+.displayText {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+}
+
+.displayText > p {
+  font-size: 32px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #FFFFFF;
+  -webkit-text-stroke: 2px #000000;
+  text-align: center;
+}
