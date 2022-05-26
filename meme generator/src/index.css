@@ -82,6 +82,12 @@ body {
   position: relative;
 }
 
+.displayImage > img {
+  width: 478px;
+  height: 271px;
+  object-fit: cover;
+}
+
 .displayText {
   position: absolute;
   width: 100%;
